@@ -1,0 +1,25 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "msys2:additional_packages=None\nmsys2:exclude_files=*/link.exe\nmsys2:packages=base-devel,binutils",
+    "requires": [
+     "1"
+    ],
+    "path": "..\\..\\conanfile.py",
+    "context": "host"
+   },
+   "1": {
+    "ref": "msys2/20200517@conan-burrito/testint",
+    "options": "additional_packages=None\nexclude_files=*/link.exe\npackages=base-devel,binutils",
+    "package_id": "57e12e879d3998a851ff36168ffa0ddf7feaa441",
+    "prev": "0",
+    "modified": true,
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\nos=Windows\nos_build=Windows\n[options]\n[build_requires]\n[env]\n"
+}

@@ -1,0 +1,25 @@
+[settings]
+
+
+[requires]
+    msys2/20200517.Y.Z
+
+[options]
+
+
+[full_settings]
+
+
+[full_requires]
+    msys2/20200517@conan-burrito/testint:57e12e879d3998a851ff36168ffa0ddf7feaa441
+
+[full_options]
+    msys2:additional_packages=None
+    msys2:exclude_files=*/link.exe
+    msys2:packages=base-devel,binutils
+
+[recipe_hash]
+
+
+[env]
+

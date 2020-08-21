@@ -1,0 +1,22 @@
+{
+ "options": [
+  [
+   "msys2:additional_packages",
+   "None"
+  ],
+  [
+   "msys2:exclude_files",
+   "*/link.exe"
+  ],
+  [
+   "msys2:packages",
+   "base-devel,binutils"
+  ]
+ ],
+ "root": {
+  "name": null,
+  "version": null,
+  "user": "conan-burrito",
+  "channel": "testint"
+ }
+}
