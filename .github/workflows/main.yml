@@ -1,7 +1,7 @@
 name: build
 
 env:
-  CONAN_REFERENCE: "msys2/20200517"
+  CONAN_REFERENCE: "msys2/cci.latest"
   CONAN_USERNAME: "conan-burrito"
   CONAN_UPLOAD: "https://conan.yobasoft.de"
   CONAN_STABLE_BRANCH_PATTERN: "release/*"

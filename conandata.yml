@@ -1,12 +1,7 @@
 sources:
-  "20200517":
+  "cci.latest":
     - url: [
-             "https://sourceforge.net/projects/msys2/files/Base/i686/msys2-base-i686-20200517.tar.xz",
-             "http://repo.msys2.org/distrib/i686/msys2-base-i686-20200517.tar.xz",
+            "http://repo.msys2.org/distrib/x86_64/msys2-base-x86_64-20210604.tar.xz",
+            "https://sourceforge.net/projects/msys2/files/Base/x86_64/msys2-base-x86_64-20210604.tar.xz",
     ]
-      sha256: "4dbdde708a4bcf3c056e8f4f28b1b0e7a3210ffacc6296a7d11fdaf076fd431e"
-    - url: [
-             "https://sourceforge.net/projects/msys2/files/Base/x86_64/msys2-base-x86_64-20200517.tar.xz",
-             "http://repo.msys2.org/distrib/x86_64/msys2-base-x86_64-20200517.tar.xz",
-      ]
-      sha256: "c4443113497acb2d2e285d40b929fc55f33f8f669902595ecdf66a655b63dc60"
+      sha256: "ebbdb74d54f8ea1eeb1a744d50e47cc649785e9b4328435f290aca5a0a58bd4f"
