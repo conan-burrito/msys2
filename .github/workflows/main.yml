@@ -45,8 +45,3 @@ jobs:
       - name: Build native
         run:  |
           python .ci/build-default.py
-      - name: Push recipe into Bintray
-        run: |
-            conan remote add bintray-burrito https://api.bintray.com/conan/conan-burrito/main
-            conan user -p ${{ env.BINTRAY_PASSWORD }} -r bintray-burrito ${{ env.BINTRAY_USER }}
-            conan upload -r bintray-burrito ${{ env.CONAN_REFERENCE }}@conan-burrito/stable
