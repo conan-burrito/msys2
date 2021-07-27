@@ -158,7 +158,7 @@ class MSYS2Conan(ConanFile):
                     if fnmatch.fnmatch(fullname, exclude):
                         os.unlink(fullname)
         shutil.copytree(os.path.join(self._msys_dir, "usr", "share", "licenses"),
-                        os.path.join(self.package_folder, "licenses")
+                        os.path.join(self.package_folder, "licenses"))
 
     def package_info(self):
         self.cpp_info.libdirs = []
