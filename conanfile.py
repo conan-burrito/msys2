@@ -56,7 +56,7 @@ class MSYS2Conan(ConanFile):
     def configure(self):
         if self.settings.os_build != "Windows":
             raise ConanInvalidConfiguration("Only Windows supported")
-        if self.settings.arch != "x86_64":
+        if self.settings.arch_build != "x86_64":
             raise ConanInvalidConfiguration("Only Windows x64 supported")
 
     def _update_pacman(self):
@@ -77,7 +77,7 @@ class MSYS2Conan(ConanFile):
 
     # https://github.com/msys2/MSYS2-packages/issues/1966
     def _kill_pacman(self):
-        if (self.settings.os == "Windows"):
+        if (self.settings.os_build == "Windows"):
             taskkill_exe = os.path.join(os.environ.get('SystemRoot'), 'system32', 'taskkill.exe')
 
             log_out = True
